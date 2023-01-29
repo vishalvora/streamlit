@@ -87,7 +87,7 @@ function AppView(props: AppViewProps): ReactElement {
     hideSidebarNav,
     pageLinkBaseUrl,
   } = props
-
+  console.log(elements)
   React.useEffect(() => {
     const listener = (): void => {
       sendMessageToHost({
